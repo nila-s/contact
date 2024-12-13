@@ -1,23 +1,138 @@
 <!DOCTYPE html>
-<style>
-  /* netnet default bg */
-  body {
-    margin: 0;
-    background-image: linear-gradient(#515199a8 2px, transparent 1px),
-      linear-gradient(90deg, #515199a8 2px, transparent 1px);
-    background-size: 50px 50px;
-    position: relative;
-    z-index: 1;
-    overflow: hidden;
-  }
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Nila Sivapragasam</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+      body {
+        margin: 0;
+        font-weight: 350;
+        font-family: 'League Spartan', sans-serif;
+        background-color: White;
+        font-size: 1.667vw;
+      }
 
-  body::before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    width: 100vw;
-    height: 100vh;
-    background: linear-gradient(0deg, #c76ebca8, #515199a8);
-  }
-</style>
-    
+      h1, h2 {
+        font-weight: 500;
+        font-size: 5vw;
+      }
+
+      h1 {
+        margin-top: 5vw;
+        margin-bottom: 0;
+        color: #214E34;
+        text-align: center;
+      }
+
+      h2 {
+        padding-left: 5vw;
+        color: #ECEAE0;
+      }
+
+      p {
+        font-size: 1.667vw;
+        color: #ECEAE0;
+      }
+
+      a {
+        color: Green;
+      }
+
+      #header {
+        background-color: #214E34;
+        height: 17.5vw;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        text-align: left;
+        line-height: 1;
+      }
+
+      #menu-bar {
+        background-color: #979B8D;
+        height: 5vw;
+        display: flex;
+        align-items: center;
+        padding-left: 5vw;
+      }
+
+      #menu-bar ul {
+        display: flex;
+        justify-content: left;
+        padding: 0;
+        gap: 5vw;
+      }
+
+      #menu-bar ul li {
+        display: inline;
+      }
+
+      #menu-bar ul li a {
+        color: #ECEAE0;
+        text-decoration: none;
+        font-size: 1.8vw;
+      }
+
+      #menu-bar ul li a:hover {
+        color: #214E34;
+      }
+
+      .info-text {
+        text-align: center;
+        padding-top: 2.5vw;
+        color: #474448;
+        margin: 0;
+      }
+      
+      
+      .button {
+        display: flex;
+        width: 65vw;
+        height: 7.5vw;
+        margin-bottom: 2.5vw;
+        text-align: center;
+        background-color: #474448;
+        align-items: center;
+        color: #ECEAE0;
+        font-size: 1.667vw;
+        text-decoration: none;
+      }
+
+      #footer {
+        background-color: #214E34;
+        height: 7.5vw;
+        font-size: 1.667vw;
+        display: flex;
+        align-items: center;
+        color: #ECEAE0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div id="header">
+        <h2>NILA<br>SIVAPRAGASAM</h2>
+      </div>
+    </header>
+    <nav id="menu-bar">
+      <ul>
+        <li><a href="https://nila-s.github.io/website/">Home</a></li>
+        <li><a href="https://nila-s.github.io/about/">About</a></li>
+        <li><a href="https://nila-s.github.io/projects/">My Work</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <h1>Contact Information</h1>
+    <p class="info-text"> Let's get in touch! </p>
+    <a href="mailto:nsivapra@uwaterloo.ca" class="button">Click here to send me an e-mail</a>
+
+
+    <div id="footer">
+      <p>&copy; 2024 Nila Sivapragasam</p>
+    </div>
+  </body>
+</html>
